@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Nunito:wght@600&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="scoreBoard.css">
+
+</head>
+
+<body>
+    <h1>SCOREBOARD KEEPER</h1>
+    <div class="container">
+        <div id="home" class="team">
+            <h3 class="teamname">HOME</h3>
+            <p class="teamscore" id="home-score">0</p>
+            <div class="team-addpoints">
+                <button class="plusBtn" id="home1" onclick="increment_home1()">+1</button>
+                <button class="plusBtn" id="home2" onclick="increment_home2()">+2</button>
+                <button class="plusBtn" id="home3" onclick="increment_home3()">+3</button>
+            </div>
+        </div>
+        <div>
+            <button class="reset" onclick="reset()">RESET</button>
+        </div>
+        <div id="guest" class="team">
+            <h3 class="teamname">GUEST</h3>
+            <p class="teamscore" id="guest-score">0</p>
+            <div class="team-addpoints">
+                <button class="plusBtn" id="guest1" onclick="increment_guest1()">+1</button>
+                <button class="plusBtn" id="guest2" onclick="increment_guest2()">+2</button>
+                <button class="plusBtn" id="guest3" onclick="increment_guest3()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="scoreBoard.js"></script>
+
+</body>
+
+</html>

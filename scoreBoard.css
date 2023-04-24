@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ecebeb;
+    color: #EEEEEE;
+
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 28px;
+    align-items: center;
+    border: 1px solid #fff;
+    width: 50%;
+    padding: 40px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    margin: -50px 0 0 -50px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+    border-radius: 0.5em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+
+}
+
+#home {
+    float: left;
+    margin-right: 60px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+}
+
+#guest {
+    float: right;
+    margin-left: 60px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+}
+
+#home,
+#guest {
+    border: 1px solid #fff;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+
+.teamname {
+    margin: 0;
+    text-align: center;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: #0f0f0f;
+    font-family: 'Nunito', sans-serif;
+}
+
+.teamscore {
+    font-weight: 600;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 90px;
+    line-height: 126px;
+    margin: 40px auto;
+    padding: 5px 10px 10px 10px;
+    color: #0f0f0f;
+    font-family: 'Nunito', sans-serif;
+}
+
+#guest .teamscore {
+    border-radius: 10px 10px;
+
+}
+
+
+
+.plusBtn {
+    background: #fff;
+    margin: 0 10px;
+    /*adds the horizontal space between the buttons*/
+    font-size: 18px;
+    font-weight: 400;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-family: LCD, Geneva, Tahoma, sans-serif;
+    color: black;
+    border: 1px solid #fff;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+
+}
+
+.plusBtn:hover,
+.reset:hover {
+    color: #516d91;
+    background-color: #E5EDF5;
+    box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgba(196, 210, 228, 0.48);
+}
+
+.reset {
+    display: block;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    width: 100px;
+    border-radius: 5px;
+    background: rgb(255, 254, 254);
+    border: 1px solid #fff;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+    padding: 9px 19px;
+    margin: 50px auto 20px auto;
+
+}
